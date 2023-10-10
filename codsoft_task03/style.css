@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&family=Quicksand:wght@500&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    font-size: 1rem;
+}body{
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200604/pngtree-cute-hand-drawn-style-math-education-blue-plaid-background-image_337576.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}h1{
+    display: block;
+    font-size: 3vw;
+    font-weight: 900;
+    color: black;
+    font-family: 'young serif';
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}.container{
+    margin-top: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}.button{
+    width:75px;
+    padding: 18px;
+    margin: 2px 4px;
+    border: 3px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+}.row{
+    margin: 2px 1px;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}input {
+    width:240px;
+    font-size: 25px;
+    padding: 2px;
+    padding: 16px;
+    border: 3px solid black;
+    border-radius: 12px;
+}
